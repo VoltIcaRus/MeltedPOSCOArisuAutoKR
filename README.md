@@ -1,52 +1,38 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="AAS icon" src="docs/resources/aas_icon.svg"/>
 
-# ArisuAutoSweeper
+## 헤일로 이동카트 (아리수)
 
-**Blue Archive Automation Script**
 
-**| English | [简体中文](README.md) |**
 
-![gui_en.png](docs/resources/gui_en.png)
 
-## Features
-
-The script is still under active development. The following features have been implemented:
-
-- [x] **Cafe** Claim rewards / Interact / Invitation / Second floor
-- [x] **Club** Claim AP
-- [x] **Mailbox** Claim rewards
-- [x] **Bounty** Auto sweep
-- [x] **Scrimmage** Auto sweep
-- [x] **Tactical Challenge** Claim rewards / Auto battle
-
-Supported servers:
+지원되는 서버:
 
 - [x] JP
-- [x] OVERSEA
+- [x] KR
 
-Supported in-game languages:
+지원되는 게임 내 언어:
 
-- [x] Japanese
-- [x] English
+- [x] 일본어
+- [x] 영어
 
-## Relative projects
+## 상대사업
 
-- [AzurLaneAutoScript](https://github.com/LmeSzinc/AzurLaneAutoScript): Azur Lane auto script
-- [StarRailCopilot](https://github.com/LmeSzinc/StarRailCopilot): A bot for Honkai: Star Rail, based on the next
-  generation of ALAS framework
+- [아주르레인 오토스크립트] (https://github.com/LmeSzinc/AzurLaneAutoScript) : 아주르레인 오토스크립트
+- [StarRail Copilot] (https://github.com/LmeSzinc/StarRailCopilot) : A bot for Honkai: Star Rail, 다음을 기반으로 함)
+  ALAS 프레임워크 생성
 
-Some Blue Archive auto scripts:
+일부 Blue Archive 자동 스크립트:
 
-- [BAAuto](https://github.com/RedDeadDepresso/BAAuto): Blue Archive Automation Script
-- [BlueArchiveAutoScript](https://github.com/pur1fying/blue_archive_auto_script): BAAS, used to implement Blue Archive
-  automation
-- [MBA](https://github.com/MaaAssistantArknights/MBA): BA assistant based on the new architecture of MAA
+- [BAAuto] (https://github.com/RedDeadDepresso/BAAuto) : Blue Archive Automation Script
+- [BlueArchiveAutoScript] (https://github.com/pur1fying/blue_archive_auto_script) : BAAS, Blue Archive 구현에 사용됨
+  자동화
+- [MBA](https://github.com/MaaAssistantArknights/MBA) : MAA의 새로운 아키텍처를 기반으로 한 BA 어시스턴트
 
-## Acknowledgements
+## 감사의 표시
 
-Thanks to [6bir](https://github.com/6bir) for the icon design.
+아이콘 디자인에 대한 [6bir](https://github.com/6bir) 덕분입니다.
 
-Thanks to [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript) and [SRC](https://github.com/LmeSzinc/StarRailCopilot)
-for the development framework.
+[Alas](https://github.com/LmeSzinc/AzurLaneAutoScript) 와 [SRC](https://github.com/LmeSzinc/StarRailCopilot) 덕분입니다
+개발의 틀을 위해.
 
-Thanks to [RedDeadDepresso](https://github.com/RedDeadDepresso) for EN support.
+EN 지원을 위해 [Red Dead Depresso](https://github.com/RedDeadDepresso) 에 감사드립니다.
