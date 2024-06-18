@@ -20,7 +20,7 @@ class ScrimmageStatus(Enum):
 
 
 class Scrimmage(ScrimmageUI, AP):
-    _stage_ap = [10, 15, 15, 15]
+    _stage_ap = [10, 15, 15, 0]
 
     @property
     def stage_ap(self):
