@@ -15,7 +15,7 @@ class BountyUI(UI):
         timer = Timer(5, 10).start()
         while 1:
             self.device.screenshot()
-            self.appear_then_click(dest_enter, interval=1)
+            self.appear_then_click(dest_enter, interval=3)
             if self.appear(dest_check):
                 return True
             if timer.reached():
