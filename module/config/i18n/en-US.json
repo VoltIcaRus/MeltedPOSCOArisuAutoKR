@@ -1,131 +1,132 @@
 {
   "Menu": {
     "Alas": {
-      "name": "AAS",
+      "name": "헤일로 이동수레 아리수",
       "help": ""
     },
     "Daily": {
-      "name": "Daily",
+      "name": "숙제",
       "help": ""
     },
     "Farm": {
-      "name": "Farm",
+      "name": "파밍",
       "help": ""
     },
     "Reward": {
-      "name": "Reward",
+      "name": "보상",
       "help": ""
     }
   },
   "Task": {
     "Alas": {
-      "name": "AAS Settings",
+      "name": "아리수 설정",
       "help": ""
     },
     "Restart": {
-      "name": "Error Handling",
+      "name": "에러 핸들링",
       "help": ""
     },
     "DataUpdate": {
-      "name": "Dashboard Upd",
+      "name": "대시보드 업데이트",
       "help": ""
     },
     "Cafe": {
-      "name": "Cafe",
+      "name": "카페",
       "help": ""
     },
     "Schedule": {
-      "name": "Lesson",
-      "help": "AAS will execute Lesson starting from Choice 1 to Choice 7.\nIt will ignore any Choice that have Location set as None or the text area for classrooms is empty.\nIf any of the active Choices have incorrect input, it will perform the action set in Error handling."
+      "name": "스케쥴",
+      "help": "아리수는 선택 1부터 선택 7까지 Lesson을 실행합니다.\n위치가 없음으로 설정되거나 강의실의 텍스트 영역이 비어 있는 모든 선택을 무시합니다.\n활성 선택 항목 중 하나가 잘못 입력된 경우 오류 처리에서 설정한 작업을 수행합니다."
     },
     "Shop": {
-      "name": "Shop",
+      "name": "소라 마빡이 때리러 가기",
       "help": ""
     },
     "Bounty": {
-      "name": "Bounty",
+      "name": "현상수배",
       "help": ""
     },
     "Scrimmage": {
-      "name": "Scrimmage",
+      "name": "학원 교루회",
       "help": ""
     },
     "TacticalChallenge": {
-      "name": "Tactical Challenge",
+      "name": "정공전",
       "help": ""
     },
     "Mission": {
-      "name": "Mission/Commissions/Event",
-      "help": "Open MCE Manager for additional settings. Must be opened if it's your first time!"
+      "name": "임무/특임/이벤트",
+      "help": "추가 설정을 위해 MCE 관리자를 엽니다. 처음 사용하는 경우 반드시 열어야 합니다!"
     },
     "Circle": {
-      "name": "Club",
+      "name": "서클",
       "help": ""
     },
     "Task": {
-      "name": "Tasks",
+      "name": "미션",
       "help": ""
     },
     "Mail": {
-      "name": "Mailbox",
+      "name": "우편함",
       "help": ""
     },
     "Momotalk": {
-      "name": "MomoTalk",
+      "name": "모모톡",
       "help": ""
     }
   },
   "Scheduler": {
     "_info": {
-      "name": "Scheduler",
+      "name": "작업 스케쥴",
       "help": ""
     },
     "Enable": {
-      "name": "Enable Task",
-      "help": "Join this task to scheduler.",
-      "True": "Enabled",
-      "False": "False"
+      "name": "작업 활성화",
+      "help": "이 작업을 작업 스케쥴에 추가 합니다.",
+      "True": "활성화",
+      "False": "비활성화"
     },
     "NextRun": {
-      "name": "Next Run",
-      "help": "Updated automatically after completing the task to set next scheduled run, typically not manually modified\nHowever you can force immediate scheduling if you clear this text field"
+      "name": "다음 실행",
+      "help": "다음 예약된 실행을 설정할 작업을 완료한 후 자동으로 업데이트되며, 일반적으로 수동으로 수정되지 않습니다.\n그러나 이 텍스트 필드를 지우면 즉시 예약을 강제할 수 있습니다"
     },
     "Command": {
-      "name": "Command",
+      "name": "명령",
       "help": ""
     },
     "ServerUpdate": {
-      "name": "Server Update",
-      "help": "Series of server refresh time(s) as to when this task will next run, this is automatically converted to respective time zone, generally do not need to modify"
+      "name": "서버 날짜 갱신시간",
+      "help": "이 작업이 다음에 실행되는 시기에 대한 일련의 서버 새로 고침 시간, 이 작업은 자동으로 각 시간대로 변환되며 일반적으로 수정할 필요가 없습니다"
     }
   },
   "Emulator": {
     "_info": {
-      "name": "Emulator Settings",
+      "name": "앱플레이어 설정",
       "help": ""
     },
     "Serial": {
-      "name": "Serial",
-      "help": "Common emulator Serial can be queried in the list below\nUse \"auto\" to auto-detect emulators, but if multiple emulators are running or use emulators that do not support auto-detect, \"auto\" cannot be used and serial must be filled in manually\nDefault serial for select emulators:\n- BlueStacks 127.0.0.1:5555\n- BlueStacks4 Hyper-V use \"bluestacks4-hyperv\", \"bluestacks4-hyperv-2\" for multi instance, and so on\n- BlueStacks5 Hyper-V use \"bluestacks5-hyperv\", \"bluestacks5-hyperv-1\" for multi instance, and so on\n- NoxPlayer 127.0.0.1:62001\n- NoxPlayer64bit 127.0.0.1:59865\n- MuMuPlayer/MuMuPlayer X 127.0.0.1:7555\n- MuMuPlayer12 127.0.0.1:16384\n- MemuPlayer 127.0.0.1:21503\n- LDPlayer emulator-5554 or 127.0.0.1:5555\n- WSA use \"wsa-0\" to make the game run in the background, which needs to be controlled or closed by third-party software\nIf there are multiple emulator instances running, the default is reserved for one of them and the others will use different serials to avoid conflicts\nOpen console.bat and run `adb devices` to find them or follow the emulator's official tutorial"
+      "name": "시리얼 포트",
+      "help": "아래 목록에서 공통 에뮬레이터 직렬을 조회할 수 있습니다\n에뮬레이터를 자동으로 감지하려면 \"auto\"를 사용하지만 여러 에뮬레이터가 실행 중이거나 자동 감지를 지원하지 않는 에뮬레이터를 사용하는 경우 \"auto\"를 사용할 수 없으며 직렬을 수동으로 입력해야 합니다선택한 에뮬레이터의 기본 직렬:\n- BlueStacks 127.0.0.1:5555\n- BlueStacks4 Hyper-V는 \"BlueStacks4-hyperv\", \"BlueStacks4-hyperv-2\"를 사용합니다- BlueStacks5 Hyper-V는 \"bluesstacks5-hyperv\", \"bluesstacks5-hyperv-1\"을 다중 인스턴스에 사용합니다.\n- NoxPlayer 127.0.0.1:62001\n- NoxPlayer64bit 127.0.0.1:59865\n- MuMuPlayer/MuMuPlayerX 127.0.0.1:7555\n- MuMuPlayer12 127.0.0.1:16384\n- MemuPlayer 127.0.0.1:21503\n- LDP layer emulator-5554 또는 127.0.0.1:5555\n- WSA는 \"wsa-0\"을 사용하여 게임을 백그라운드에서 실행할 수 있도록 하는데, 이는 타사 소프트웨어에 의해 제어되거나 닫힐 필요가 있다\n실행 중인 에뮬레이터 인스턴스가 여러 개 있는 경우 기본값은 그 중 하나에 예약되고 다른 인스턴스는 충돌을 피하기 위해 서로 다른 직렬을 사용합니다.\nconsole.bat를 열고 adb device를 실행하여 찾거나 에뮬레이터의 공식 튜토리얼을 따릅니다."
     },
     "PackageName": {
-      "name": "Game Server",
-      "help": "Can't distinguish different regions of oversea servers, please select the server manually.",
-      "auto": "Auto-detect",
+      "name": "게임 서버",
+      "help": "해외 서버의 다른 지역을 구분할 수 없는 경우 서버를 수동으로 선택해 주세요.",
+      "auto": "자동 감지 ",
       "JP-Official": "[JP]-Official",
       "OVERSEA-TWHKMO": "[OVERSEA]-TW/HK/MO",
       "OVERSEA-Korea": "[OVERSEA]-Korea",
+      "OVERSEA-Korea-one": "[OVERSEA]-Korea OneStore",
       "OVERSEA-Asia": "[OVERSEA]-Asia",
       "OVERSEA-America": "[OVERSEA]-North America",
       "OVERSEA-Global": "[OVERSEA]-Global"
     },
     "GameLanguage": {
-      "name": "In-game Text Language",
-      "help": "Can't detect language automatically, please select the language manually.",
-      "auto": "Auto-detect",
-      "jp": "Japanese",
-      "en": "English",
-      "zht": "Traditional Chinese"
+      "name": "게임 내 텍스트 언어",
+      "help": "언어를 자동으로 감지할 수 없으므로 언어를 수동으로 선택해 주세요.",
+      "auto": "자동 감지",
+      "jp": "일본어",
+      "en": "영어",
+      "zht": "대만"
     },
     "ScreenshotMethod": {
       "name": "Screenshot Method",
