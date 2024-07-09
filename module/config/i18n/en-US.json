@@ -882,7 +882,7 @@
     },
     "MenuAlas": {
       "Overview": "톺아보기",
-      "Log": "Logs"
+      "Log": "이력"
     },
     "MenuDevelop": {
       "HomePage": "홈",
@@ -892,21 +892,21 @@
       "Utils": "Utils"
     },
     "Overview": {
-      "Scheduler": "Scheduler",
-      "Log": "Log",
-      "Running": "Running",
-      "Pending": "Pending",
-      "Waiting": "Waiting",
-      "NoTask": "No Task"
+      "Scheduler": "작업 스케쥴",
+      "Log": "이력",
+      "Running": "실행중",
+      "Pending": "보류중",
+      "Waiting": "대기중",
+      "NoTask": "일 없습네다"
     },
     "Dashboard": {
-      "NoData": "no data",
-      "TimeError": "time error",
-      "JustNow": "just now",
-      "MinutesAgo": "{time}min ago",
-      "HoursAgo": "{time}h ago",
-      "DaysAgo": "{time}d ago",
-      "LongTimeAgo": "long time ago"
+      "NoData": "데이터 없음",
+      "TimeError": "시간 오류",
+      "JustNow": "방금 전",
+      "MinutesAgo": "{time}분 전",
+      "HoursAgo": "{time}시간 전",
+      "DaysAgo": "{time}일 전",
+      "LongTimeAgo": "오랜 시간 전"
     },
     "AddAlas": {
       "PopupTitle": "Add new config",
