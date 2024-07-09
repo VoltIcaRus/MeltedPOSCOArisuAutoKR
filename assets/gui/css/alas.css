@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF'; /* 폰트 이름을 파일 이름과 일치시킵니다. */
+  src: url('./NEXON Lv1 Gothic OTF.woff') format('woff'); /* woff 파일 경로 */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 details {
     border: unset !important;
     padding-bottom: unset !important;
@@ -207,7 +216,7 @@ button.btn.dropdown-toggle {
 }
 
 .CodeMirror-line {
-    font-family: SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
+    font-family: 'NEXON Lv1 Gothic OTF', sans-serif !important;
 }
 
 .form-group {
@@ -238,7 +247,7 @@ code.rich-traceback {
 pre.rich-traceback-code {
     padding-top: 0;
     padding-bottom: 0;
-    font-family: Menlo, consolas, DejaVu Sans Mono, Courier New, monospace;
+    font-family: 'NEXON Lv1 Gothic OTF', sans-serif;
     font-size: 0.85rem;
     line-height: 1.2;
 }
@@ -449,7 +458,7 @@ pre.rich-traceback-code {
 #pywebio-scope-log {
     line-height: 1.2;
     font-size: 0.85rem;
-    font-family: Menlo, consolas, DejaVu Sans Mono, Courier New, monospace;
+    font-family: 'NEXON Lv1 Gothic OTF', sans-serif;
     white-space: pre;
 }
 
