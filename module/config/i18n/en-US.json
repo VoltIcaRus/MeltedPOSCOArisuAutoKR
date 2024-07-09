@@ -643,16 +643,16 @@
   },
   "NormalShop": {
     "_info": {
-      "name": "Normal Shop Settings",
+      "name": "상점 구매 설정",
       "help": ""
     },
     "Enable": {
-      "name": "Enable",
+      "name": "활성화",
       "help": ""
     },
     "Purchases": {
-      "name": "Number of Purchases",
-      "help": "Default can be purchased once + number of refreshes = number of purchases, for example, 2 purchases = 1 default purchase + 1 refresh purchase",
+      "name": "구매수량",
+      "help": "기본 구매 1회 + 새로고침 횟수 = 구매 횟수(예: 2번 구매 = 기본 구매 1회 + 새로고침 구매 1회)",
       "1": "1",
       "2": "2",
       "3": "3",
@@ -660,67 +660,67 @@
     },
     "1": {
       "name": "1",
-      "help": "x5 Novice Activity Report - 12,500 Credits"
+      "help": "x5 초급 활동 보고서 - 12,500 크레딧"
     },
     "2": {
       "name": "2",
-      "help": "x5 Normal Activity Report - 125,000 Credits"
+      "help": "x5 일반 활동 보고서 - 125,000 크레딧"
     },
     "3": {
       "name": "3",
-      "help": "x3 Advanced Activity Report - 300,000 Credits"
+      "help": "x3 상급 활동 보고서 - 300,000 크레딧"
     },
     "4": {
       "name": "4",
-      "help": "x1 Superior Activity Report - 500,000 Credits"
+      "help": "x1 최상급 활동 보고서 - 500,000 크레딧"
     },
     "5": {
       "name": "5",
-      "help": "x5 Lesser Enhancement Stone - 10,000 Credits"
+      "help": "x5 하급 강화석 - 10,000 크레딧"
     },
     "6": {
       "name": "6",
-      "help": "x5 Normal Enhancement Stone - 40,000 Credits"
+      "help": "x5 일반 강화석 - 40,000 크레딧"
     },
     "7": {
       "name": "7",
-      "help": "x3 Advanced Enhancement Stone - 96,000 Credits"
+      "help": "x3 상급 강화석 - 96,000 크레딧"
     },
     "8": {
       "name": "8",
-      "help": "x1 Superior Enhancement Stone - 128,000 Credits"
+      "help": "x1 최상급 강화석 - 128,000 크레딧"
     },
     "9": {
       "name": "9",
-      "help": "x5 Lesser Enhancement Stone - 10,000 Credits"
+      "help": "x5 하급 강화석 - 10,000 크레딧"
     },
     "10": {
       "name": "10",
-      "help": "x5 Normal Enhancement Stone - 40,000 Credits"
+      "help": "x5 일반 강화석 - 40,000 크레딧"
     },
     "11": {
       "name": "11",
-      "help": "x3 Advanced Enhancement Stone - 96,000 Credits"
+      "help": "x3 상급 강화석 - 96,000 크레딧"
     },
     "12": {
       "name": "12",
-      "help": "x1 Superior Enhancement Stone - 128,000 Credits"
+      "help": "x1 최상급 강화석 - 128,000 크레딧"
     },
     "13": {
       "name": "13",
-      "help": "x10 Lesser Enhancement Stone - 20,000 Credits"
+      "help": "x5 하급 강화석 - 10,000 크레딧"
     },
     "14": {
       "name": "14",
-      "help": "x10 Normal Enhancement Stone - 80,000 Credits"
+      "help": "x5 일반 강화석 - 40,000 크레딧"
     },
     "15": {
       "name": "15",
-      "help": "x6 Advanced Enhancement Stone - 192,000 Credits"
+      "help": "x3 상급 강화석 - 96,000 크레딧"
     },
     "16": {
       "name": "16",
-      "help": "x2 Superior Enhancement Stone - 256,000 Credits"
+      "help": "x1 최상급 강화석 - 128,000 크레딧"
     },
     "17": {
       "name": "17",
@@ -741,7 +741,7 @@
   },
   "TacticalChallengeShop": {
     "_info": {
-      "name": "Tactical Challenge Shop Settings",
+      "name": "정공전 상점",
       "help": ""
     },
     "Enable": {
@@ -881,11 +881,11 @@
       "Updating": "Waiting Update"
     },
     "MenuAlas": {
-      "Overview": "Overview",
+      "Overview": "톺아보기",
       "Log": "Logs"
     },
     "MenuDevelop": {
-      "HomePage": "Home",
+      "HomePage": "홈",
       "Translate": "Translate",
       "Update": "Updater",
       "Remote": "Remote access",
