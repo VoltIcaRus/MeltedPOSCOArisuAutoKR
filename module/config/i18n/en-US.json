@@ -827,34 +827,34 @@
       "help": ""
     },
     "Credit": {
-      "name": "Credit",
+      "name": "크레딧",
       "help": ""
     },
     "Pyroxene": {
-      "name": "Pyroxene",
+      "name": "청휘석",
       "help": ""
     },
     "BountyTicket": {
-      "name": "Bounty",
+      "name": "현상수배",
       "help": ""
     },
     "ScrimmageTicket": {
-      "name": "Scrimmage",
+      "name": "학원 교류회",
       "help": ""
     },
     "TacticalChallengeTicket": {
-      "name": "Tactical Challenge",
+      "name": "정공전",
       "help": ""
     }
   },
   "Gui": {
     "Aside": {
-      "Install": "Install",
-      "Home": "Home",
+      "Install": "설치",
+      "Home": "홈",
       "Develop": "Develop",
       "Performance": "Perf.",
       "Setting": "Settings",
-      "AddAlas": "Add"
+      "AddAlas": "추가"
     },
     "Button": {
       "Start": "Start",
