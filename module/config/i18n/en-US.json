@@ -77,12 +77,12 @@
   },
   "Scheduler": {
     "_info": {
-      "name": "작업 스케쥴",
+      "name": "로동계획",
       "help": ""
     },
     "Enable": {
       "name": "작업 활성화",
-      "help": "이 작업을 작업 스케쥴에 추가 합니다.",
+      "help": "이 작업을 로동계획에 추가 합니다.",
       "True": "활성화",
       "False": "비활성화"
     },
@@ -892,7 +892,7 @@
       "Utils": "Utils"
     },
     "Overview": {
-      "Scheduler": "작업 스케쥴",
+      "Scheduler": "로동계획",
       "Log": "이력",
       "Running": "실행중",
       "Pending": "보류중",
