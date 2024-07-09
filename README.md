@@ -1,7 +1,7 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="AAS icon" src="docs/resources/aas_icon.svg"/>
 
 ## 헤일로 이동수레 (아리수)
-![image](https://github.com/VoltIcaRus/MeltedPOSCOArisuAutoKR/assets/3735740/e63b4572-dcf5-4744-9086-be46e57f7ad9)
+
 
 
  <br/> 
