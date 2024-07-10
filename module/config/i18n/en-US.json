@@ -27,7 +27,7 @@
       "help": ""
     },
     "DataUpdate": {
-      "name": "종합판 갱신",
+      "name": "대시보드 업데이트",
       "help": ""
     },
     "Cafe": {
@@ -77,12 +77,12 @@
   },
   "Scheduler": {
     "_info": {
-      "name": "로동계획",
+      "name": "작업 스케쥴",
       "help": ""
     },
     "Enable": {
       "name": "작업 활성화",
-      "help": "이 작업을 로동계획에 추가 합니다.",
+      "help": "이 작업을 작업 스케쥴에 추가 합니다.",
       "True": "활성화",
       "False": "비활성화"
     },
@@ -235,56 +235,56 @@
   },
   "Cafe": {
     "_info": {
-      "name": "카페 설정",
+      "name": "Cafe Settings",
       "help": ""
     },
     "Reward": {
-      "name": "보상 받기",
+      "name": "Claim Reward",
       "help": ""
     },
     "Touch": {
-      "name": "학생 쓰다듬",
-      "help": "학생 자동감지 그리고 쓰담쓰담"
+      "name": "Student Interaction",
+      "help": "Auto detect intractable student and tap"
     },
     "AutoAdjust": {
-      "name": "시점 자동 조정",
-      "help": "더 나은 학생 상호 작용을 위한 카페 시점 자동 조정"
+      "name": "Interface Auto Adjustment",
+      "help": "Auto adjust cafe interface for better student interaction"
     },
     "SecondCafe": {
-      "name": "카페 2층",
-      "help": "2층으로 자동 전환을 활성화하고 쓰담 쓰담"
+      "name": "Second Floor",
+      "help": "JP server only\nEnable auto switch to second floor and perform interaction"
     }
   },
   "Invitation": {
     "_info": {
-      "name": "초대 설정",
+      "name": "Invitation Settings",
       "help": ""
     },
     "Enable": {
-      "name": "작업 활성화",
-      "help": "카페 초대를 활성화 합니다"
+      "name": "Enable",
+      "help": "Enable cafe invitation"
     },
     "WaitingHour": {
-      "name": "초대 조건",
-      "help": "다음 카페 새로 고침까지 남은 시간에 따라 학생 초대 여부 선택\n이 기능은 AFK 시 최대한의 학생 참여와 최대한의 애정을 얻기 위한 것입니다. 권장 옵션 :\n24*7 AFK:\t \"9시간 더 남은 경우\"를 선택합니다.\n일반 사용 방법 :\t \"즉시 초대\"를 선택합니다."",
+      "name": "Invitation Condition",
+      "help": "Choose whether to invite students based on the remaining time before next cafe refresh\nThis is for obtaining maximum student interation and maximum affection when AFK. Recommended option:\n24*7 AFK:\t\t Choose \"If 9 more hours remaining\"\nNormal usage:\t Choose \"Invite immediately\"",
       "0": "Invite immediately",
       "3": "If 3 more hours remaining",
       "6": "If 6 more hours remaining",
       "9": "If 9 more hours remaining"
     },
     "Choice": {
-      "name": "초대 할 학생을 선택합니다.",
-      "help": "목록의 맨 위 첫 번째 학생: 목록의 맨 위에 있는 학생 초대\n이름으로: 아래에 설정한 이름으로 학생을 초대합니다.",
-      "list_top": "목록의 제일 첫번째 학생",
-      "by_name": "이름으로"
+      "name": "Choose Inviting Student",
+      "help": "Top first student of list: Invite the student at the top first of the list\nBy name: Invite the student with the name you set below",
+      "list_top": "Top first student of list",
+      "by_name": "By name"
     },
     "Name": {
-      "name": "학생 이름으로 초대하기",
+      "name": "Inviting Student Name",
       "help": "It is recommended to use Input Helper to avoid any mistakes and paste it here using Ctrl + V.\nFill in the name of the student to be invited. Use in-game text language. Use > to connect multiple students. Example:\nJP: ホシノ(水着) > 御坂美琴 > ユズ\nOVERSEA: Hoshino(Swimsuit) > Yuuka > Kayoko(New Year)"
     },
     "Substitute": {
-      "name": "기존 학생 교체",
-      "help": "기존 학생을 대체할지 여부.\n그렇지 않은 경우 다음 학생으로 넘억갑니다."
+      "name": "Replace existing student",
+      "help": "Whether to replace the existing student with their alt.\nIf not, try to match the next student"
     }
   },
   "Schedule": {
@@ -875,9 +875,9 @@
       "ClickToUpdate": "New update available, click here to update"
     },
     "Status": {
-      "Running": "로동중",
-      "Inactive": "쉬는중",
-      "Warning": "경고",
+      "Running": "Running",
+      "Inactive": "Inactive",
+      "Warning": "Warning",
       "Updating": "Waiting Update"
     },
     "MenuAlas": {
@@ -892,7 +892,7 @@
       "Utils": "Utils"
     },
     "Overview": {
-      "Scheduler": "로동계획",
+      "Scheduler": "작업 스케쥴",
       "Log": "이력",
       "Running": "실행중",
       "Pending": "보류중",
