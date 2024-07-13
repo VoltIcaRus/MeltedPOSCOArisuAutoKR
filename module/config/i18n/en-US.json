@@ -1,7 +1,7 @@
 {
   "Menu": {
     "Alas": {
-      "name": "아리수 쇳물제조",
+      "name": "아리수 용광로 녹이기",
       "help": ""
     },
     "Daily": {
@@ -9,7 +9,7 @@
       "help": ""
     },
     "Farm": {
-      "name": "파밍",
+      "name": "수확",
       "help": ""
     },
     "Reward": {
@@ -27,7 +27,7 @@
       "help": ""
     },
     "DataUpdate": {
-      "name": "대시보드 업데이트",
+      "name": "종합판 갱신",
       "help": ""
     },
     "Cafe": {
@@ -77,11 +77,11 @@
   },
   "Scheduler": {
     "_info": {
-      "name": "작업 스케쥴",
+      "name": "로동계획",
       "help": ""
     },
     "Enable": {
-      "name": "작업 활성화",
+      "name": "로동 활성화",
       "help": "이 작업을 작업 스케쥴에 추가 합니다.",
       "True": "활성화",
       "False": "비활성화"
@@ -265,26 +265,26 @@
       "help": "Enable cafe invitation"
     },
     "WaitingHour": {
-      "name": "Invitation Condition",
-      "help": "Choose whether to invite students based on the remaining time before next cafe refresh\nThis is for obtaining maximum student interation and maximum affection when AFK. Recommended option:\n24*7 AFK:\t\t Choose \"If 9 more hours remaining\"\nNormal usage:\t Choose \"Invite immediately\"",
-      "0": "Invite immediately",
-      "3": "If 3 more hours remaining",
-      "6": "If 6 more hours remaining",
-      "9": "If 9 more hours remaining"
+      "name": "초대조건",
+      "help": "다음 카페 새로 고침까지 남은 시간에 따라 학생 초대 여부 선택\n이 기능은 AFK 시 최대한의 학생 참여와 최대한의 인연을 얻기 위한 것입니다 권장설정:\n24*7 AFK:\t\t Choose \"9시간 더 남은 경우\"\n일반 초대:\t Choose \"즉시 초대\"",
+      "0": "즉시 초대",
+      "3": "3시간이 더 남은 경우",
+      "6": "6시간이 더 남은 경우",
+      "9": "9시간이 더 남은 경우"
     },
     "Choice": {
-      "name": "Choose Inviting Student",
-      "help": "Top first student of list: Invite the student at the top first of the list\nBy name: Invite the student with the name you set below",
-      "list_top": "Top first student of list",
-      "by_name": "By name"
+      "name": "초대 할 학생을 선택합니다.",
+      "help": "목록의 맨 위 첫 번째 학생: 목록의 맨 위에 있는 학생 초대\n이름으로: 아래에 설정한 이름으로 학생을 초대합니다.",
+      "list_top": "목록의 상위 1등 학생",
+      "by_name": "이름으로"
     },
     "Name": {
-      "name": "Inviting Student Name",
-      "help": "It is recommended to use Input Helper to avoid any mistakes and paste it here using Ctrl + V.\nFill in the name of the student to be invited. Use in-game text language. Use > to connect multiple students. Example:\nJP: ホシノ(水着) > 御坂美琴 > ユズ\nOVERSEA: Hoshino(Swimsuit) > Yuuka > Kayoko(New Year)"
+      "name": "학생 이름 초대",
+      "help": "입력 도우미를 사용하여 실수를 방지하고 Ctrl + V를 사용하여 여기에 붙여넣는 것이 좋습니다.\n초대할 학생의 이름을 입력합니다. 게임 내 텍스트 언어를 사용합니다. 여러 학생을 연결하려면 >를 사용합니다. 예시:\nJP: ホシノ(水着) > 御坂美琴 > ユズ\nOVERSEA: Hoshino(Swimsuit) > Yuuka > Kayoko(New Year)"
     },
     "Substitute": {
-      "name": "Replace existing student",
-      "help": "Whether to replace the existing student with their alt.\nIf not, try to match the next student"
+      "name": "기존 학생 교체",
+      "help": "기존 학생을 대체할지 여부.\n그렇지 않은 경우 다음 학생을 초대합니다"
     }
   },
   "Schedule": {
