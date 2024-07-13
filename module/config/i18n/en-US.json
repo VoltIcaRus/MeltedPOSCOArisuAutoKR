@@ -892,7 +892,7 @@
       "Utils": "Utils"
     },
     "Overview": {
-      "Scheduler": "작업 스케쥴",
+      "Scheduler": "로동계획",
       "Log": "이력",
       "Running": "실행중",
       "Pending": "보류중",
