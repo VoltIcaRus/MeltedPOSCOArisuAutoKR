@@ -3,11 +3,11 @@ Deploy:
     # URL of AzurLaneAutoScript repository
     # [CN user] Use 'cn' to get update from self-hosted git service
     # [Other] Use 'global' to get update from https://github.com/VoltIcaRus/ArisuAutoSweeperKR
-    Repository: dev
+    Repository: https://github.com/VoltIcaRus/MeltedPOSCOArisuAutoKR
     # Branch of Alas
     # [Developer] Use 'dev', 'app', etc, to try new features
     # [Other] Use 'master', the stable branch
-    Branch: master
+    Branch: dev
     # Filepath of git executable `git.exe`
     # [Easy installer] Use './toolkit/Git/mingw64/bin/git.exe'
     # [Other] Use you own git
