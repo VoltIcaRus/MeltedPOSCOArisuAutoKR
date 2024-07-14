@@ -14,7 +14,7 @@ VALID_SERVER = {
     'OVERSEA-Asia': 'com.nexon.bluearchive',
     'OVERSEA-America': 'com.nexon.bluearchive',
     'OVERSEA-Global': 'com.nexon.bluearchive.one',
-    'OVERSEA-Global': 'com.nexon.bluearchiveteen',
+    'OVERSEA-Global-teen': 'com.nexon.bluearchiveteen',
     
 }
 VALID_PACKAGE = set(list(VALID_SERVER.values()))
