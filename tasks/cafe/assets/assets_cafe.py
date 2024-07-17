@@ -265,10 +265,10 @@ INVITE_IN_SECOND = ButtonWrapper(
     ),
     en=Button(
         file='./assets/en/cafe/INVITE_IN_SECOND.png',
-        area=(482, 147, 799, 177),
+        area=(490, 154, 785, 180),
         search=(462, 127, 819, 197),
         color=(166, 177, 188),
-        button=(482, 147, 799, 177),
+        button=(490, 154, 785, 180),
     ),
 )
 INVITE_IN_SECOND_CLOSE = ButtonWrapper(
