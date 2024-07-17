@@ -245,10 +245,11 @@ def handle_invitation_status(status: InvitationStatus, main: ModuleBase) -> Invi
             logger.info(f"INVITE_IN_SECOND: {main.appear(INVITE_IN_SECOND)}")
             logger.info(f"INVITE_SUBSTITUTE: {main.appear(INVITE_SUBSTITUTE)}")
             
-            if main.config.LANG == 'en' and main.appear(INVITE_IN_SECOND):
-                return InvitationStatus.IN_SECOND
+
             if main.appear(INVITE_CONFIRM):
                 return InvitationStatus.CONFIRM
+            if main.config.LANG == 'en' and main.appear(INVITE_IN_SECOND):
+                return InvitationStatus.IN_SECOND
             if main.appear(INVITE_SUBSTITUTE):
                 return InvitationStatus.SUBSTITUTE
         case InvitationStatus.CONFIRM:
